@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tonte de Gazon</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #f6f9f2; color: #1a1a1a; }
+
+  header {
+    background: #1e5c1e;
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 1.5rem 2rem;
+  }
+  header h1 { font-size: 2.2rem; font-weight: 700; line-height: 1.1; }
+  header h1 span { color: #a8e063; }
+  header p { margin-top: 0.5rem; font-size: 1rem; opacity: 0.85; }
+  .price-tag {
+    display: inline-block;
+    background: #a8e063;
+    color: #1a4d1a;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 3px 12px;
+    border-radius: 20px;
+    margin-top: 0.75rem;
+  }
+  .book-btn {
+    display: inline-block;
+    margin-top: 1.25rem;
+    background: #fff;
+    color: #1e5c1e;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .book-btn:hover { background: #e8f5d8; }
+
+  main { max-width: 480px; margin: 0 auto; padding: 1.5rem 1.25rem; }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 1.5rem;
+  }
+  .service {
+    background: #fff;
+    border: 1px solid #d4eab8;
+    border-radius: 10px;
+    padding: 0.9rem 0.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #1e5c1e;
+    font-weight: 600;
+  }
+  .service-icon { font-size: 1.4rem; display: block; margin-bottom: 4px; }
+
+  .guarantee {
+    background: #eaf6d8;
+    border: 1px solid #b8dfa0;
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    font-size: 0.88rem;
+    color: #1a4d1a;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .contact {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact h2 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #1e5c1e; }
+  .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 0;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .contact-row:last-child { border-bottom: none; }
+  .contact-row a { color: #1a1a1a; text-decoration: none; }
+  .contact-row a:hover { text-decoration: underline; }
+
+  .bottom { text-align: center; padding-bottom: 2rem; }
+  .bottom p { font-size: 0.85rem; color: #555; margin-bottom: 0.75rem; }
+  .book-btn2 {
+    display: inline-block;
+    background: #1e5c1e;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 13px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .book-btn2:hover { background: #164d16; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tonte de <span>gazon</span></h1>
+  <p>Ahuntsic-Cartierville &amp; Ste-Rose</p>
+  <div class="price-tag">À partir de 35$</div><br>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScESI9IPdw255WhUgbty27rmiIZbRNKAPLQ0tTXYUEFjsGO6w/viewform?usp=dialog" target="_blank" class="book-btn">📋 Réserver maintenant</a>
+</header>
+
+<main>
+  <div class="services">
+    <div class="service"><span class="service-icon">✂️</span>Tonte</div>
+    <div class="service"><span class="service-icon">🌿</span>Taillage</div>
+    <div class="service"><span class="service-icon">🪴</span>Jardin</div>
+  </div>
+
+  <div class="guarantee">✅ <strong>Satisfaction garantie</strong></div>
+
+  <div class="contact">
+    <h2>Nous contacter</h2>
+    <div class="contact-row"><span>📍</span> Ahuntsic-Cartierville et Ste-Rose</div>
+    <div class="contact-row"><span>✉️</span> <a href="mailto:seddaouielias3@gmail.com">seddaouielias3@gmail.com</a></div>
+    <div class="contact-row"><span>📞</span> <a href="tel:+15146547019">(514) 654-7019</a></div>
+    <div class="contact-row"><span>📞</span> <a href="tel:+15146559320">(514) 655-9320</a></div>
+  </div>
+
+  <div class="bottom">
+    <p>Écrivez-nous pour recevoir votre estimation gratuite!</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScESI9IPdw255WhUgbty27rmiIZbRNKAPLQ0tTXYUEFjsGO6w/viewform?usp=dialog" target="_blank" class="book-btn2">Obtenir mon estimation</a>
+  </div>
+</main>
+
+</body>
+</html>
